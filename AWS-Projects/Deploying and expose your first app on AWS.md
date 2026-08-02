@@ -2,7 +2,9 @@
 
 Today we will be deploying a simple "Hello World" application on the remote instance and exposing it to the world. To follow up on this you can also Fork this repo,
 
-`https://github.com/havokrazor/Everything-Related-to-AWS.git`
+```
+https://github.com/havokrazor/Everything-Related-to-AWS.git
+```
 
 
 ### Let's Start with creating and setting up the EC2 Instances
