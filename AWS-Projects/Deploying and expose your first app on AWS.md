@@ -23,4 +23,5 @@ Today we will be deploying a simple "Hello World" application on the remote inst
    
 3.Connecting to the instance using ssh
 
-```ssh -i keyname.pem ubuntu@public-ip-address
+```
+ssh -i keyname.pem ubuntu@public-ip-address
