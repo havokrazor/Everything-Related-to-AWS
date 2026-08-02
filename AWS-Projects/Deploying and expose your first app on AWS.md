@@ -5,11 +5,20 @@ Today we will be deploying a simple "Hello World" application on the remote inst
 
 ### Let's Start with creating and setting up the EC2 Instances
 
-Create an IAM user & login to your AWS Console
-Access Type - Password
-Permissions - Admin
-Create an EC2 instance
-Select an OS image - Ubuntu
-Create a new key pair & download .pem file
-Instance type - t2.micro
-Connecting to the instance using ssh
+1.Create an IAM user & login to your AWS Console
+
+   -Access Type - Password
+   
+   -Permissions - Admin
+   
+2.Create an EC2 instance
+
+   -Select an OS image - Ubuntu
+   
+   -Create a new key pair & download .pem file
+   
+   -Instance type - t2.micro
+   
+3.Connecting to the instance using ssh
+
+```ssh -i keyname.pem ubuntu@public-ip-address
